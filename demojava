@@ -1,21 +1,22 @@
-import java.until.Scanner;
-public class demojava
- {
-    public static void main(String args[]) 
-    {
-        int first,second,sum,difference,product;
-            float quotient;
-        Scanner scanner = newScanner(System:in);
-        system.out.println("Enter 2 number:");
-        first = scanner.nextInt();
-        second = scanner.nextInt();
-        sum= first + second;
-        difference=first-second;
-        product=first*second;
-        quotient=(float)first/second;
-        system.out.println("sum ="+sum);
-        system.out.println("difference="+difference);
-        system.out.println("product="+product);
-        system.out,println("quotient="+quotient);
-}
- }
+import java.util.Scanner;
+
+public class demojava{
+    public static void main(String[] args) {
+ Scanner scanner = new Scanner(System.in);
+       
+        System.out.println("Enter first number: ");
+        int first = scanner.nextInt();
+
+        System.out.println("Enter second number: ");
+        int second = scanner.nextInt();
+
+        
+        System.out.println("The addition between two numbers:" + (first + second));
+        System.out.println("The subtraction between two numbers:" + (first - second) );
+        System.out.println("The multiplication between two numbers:" + (first * second));
+
+        if (second != 0) {
+            System.out.println("The division between two numbers:" + (first / second));
+        } else {
+            System.out.println("Division by zero is not allowed");
+            }
