@@ -1,0 +1,21 @@
+import java.until.Scanner;
+public class demojava
+ {
+    public static void main(String args[]) 
+    {
+        int first,second,sum,difference,product;
+            float quotient;
+        Scanner scanner = newScanner(System:in);
+        system.out.println("Enter 2 number:");
+        first = scanner.nextInt();
+        second = scanner.nextInt();
+        sum= first + second;
+        difference=first-second;
+        product=first*second;
+        quotient=(float)first/second;
+        system.out.println("sum ="+sum);
+        system.out.println("difference="+difference);
+        system.out.println("product="+product);
+        system.out,println("quotient="+quotient);
+}
+ }
